@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(orenforest.jpg) center;
+}
+
+.qt{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+    border: 20px solid;
+    border-image: url(wood.jpg);
+    border-image-slice: 10; 
+    text-align: center;  
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 1.3em;
+    background: none;
+    color: #fff;
+    backdrop-filter: blur(4.0px);
+}
+.idol{
+    position: relative;
+    top: 30px;
+}
